@@ -1,0 +1,88 @@
+h1 {
+  font-size: 50px;
+  text-align: left;
+  font-family: 'Comic Sans MS';
+}
+
+p, li {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0px;
+  font-family: 'Lucida Console';
+  padding-left: 10px;
+  width: 600px;
+}
+
+body {
+  font-family: 'Lucida Console';
+  margin: 0 auto;
+  background-color: #ffffcc;
+  padding: 0 10px 20px 15px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #ff0000;
+  text-shadow: 2px 2px 1px black;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.img-medium {
+    height: 200px;
+}
+.center {
+    text-align: center;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+.links {
+  text-shadow: 1px 1px 1px #ffff99;
+  background-color: #ffffff;
+  padding: 5px 2px 2px 5px;
+  border: 5px solid black;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0px;
+  font-family: 'Lucida Console';
+}
+.game{
+  background-color: #ffcc66;
+  font-family: 'Lucida Console';
+  height: 400px;
+}
+div.profile{
+  text-align: right;
+}
+img.profile{
+  height: 120px;
+  float: right;
+  width: 120px;
+}
+a.navbar {
+    color: #ff3300;
+    background-color: transparent;
+    text-decoration: none;
+    padding-left: 2;
+    padding-right: 2;
+}
+
+a.navbar:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a.navbar:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
