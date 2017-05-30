@@ -2,29 +2,26 @@ h1 {
   font-size: 50px;
   text-align: left;
   font-family: 'Patrick Hand SC', cursive;
+  margin: 0;
+  padding: 20px 0;
+  color: #ff0000;
+  text-shadow: 2px 2px 1px black;
 }
 
 p, li {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0px;
-  font-family: 'Lucida Console';
+  font-family: 'Nova Mono', monospace;
   padding-left: 10px;
   width: 600px;
 }
 
 body {
-  font-family: 'Lucida Console';
+  font-family: 'Nova Mono', monospace;
   margin: 0 auto;
   background-color: #ffffcc;
   padding: 0 10px 20px 15px;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #ff0000;
-  text-shadow: 2px 2px 1px black;
 }
 
 img {
@@ -53,11 +50,11 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0px;
-  font-family: 'Lucida Console';
+  font-family: 'Nova Mono', monospace;
 }
 .game{
   background-color: #ffcc66;
-  font-family: 'Lucida Console';
+  font-family: 'Nova Mono', monospace;
   height: 400px;
 }
 div.profile{
