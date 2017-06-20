@@ -92,7 +92,7 @@ img.profile{
 }
 a.navbar {
     color: #ff3300;
-    background-color: #ffff33;
+    background-color: transparent;
 	border: 0px;
 	border-radius: 4px;
     text-decoration: none;
@@ -102,7 +102,7 @@ a.navbar {
 
 a.navbar:hover {
     color: blue;
-    background-color: transparent;
+    background-color: #ff9933;
     text-decoration: underline;
 }
 a.navbar:active {
