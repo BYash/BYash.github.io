@@ -96,7 +96,11 @@ img.profile{
   float: right;
   width: 120px;
 }
-a.navbar a.active {
+a.active .links {
+	color: #ffffff;
+	background-color: #ff9900;
+	}
+a.navbar {
     color: #ff3300;
     background-color: transparent;
 	border: 0px;
