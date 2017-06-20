@@ -8,6 +8,14 @@ h1 {
   text-shadow: 2px 2px 1px black;
 }
 
+hr {
+	border-color: #ff3300;
+	border-width: 1px;
+	margin-bottom: -8px;
+	margin-top: 2px;
+	border-style: solid;
+}
+
 p, li {
   font-size: 14px;
   line-height: 2;
