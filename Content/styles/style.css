@@ -107,6 +107,6 @@ a.navbar:hover {
 }
 a.navbar:active {
     color: yellow;
-    background-color: transparent;
+    background-color: #ff9900;
     text-decoration: underline;
 }
