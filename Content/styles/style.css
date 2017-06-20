@@ -92,7 +92,9 @@ img.profile{
 }
 a.navbar {
     color: #ff3300;
-    background-color: transparent;
+    background-color: #ffff33;
+	border: 0px;
+	border-radius: 4px;
     text-decoration: none;
     padding-left: 4;
     padding-right: 3;
