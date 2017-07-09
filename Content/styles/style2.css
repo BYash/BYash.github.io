@@ -1,0 +1,241 @@
+html{
+
+}
+#top:break-after: 50px{
+  position: fixed;
+  top: 0;
+}
+#header {
+  display: block;
+  height: auto;
+  position: relative;
+}
+#header nav.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+#header nav.clearfix { display: inline-block; }
+#header nav.clearfix { display: block; zoom: 1; }
+
+div.namebar h1 {
+  font-size: 50px;
+
+  text-align: left;
+  font-family: 'Patrick Hand SC', cursive;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 6px;
+  padding-bottom: 2px;
+  width: 100%;
+  top: 0;
+  color: #ff3300;
+  background-color: #ffffcc;
+  text-shadow: 2px 2px 1px #222222;
+}
+
+hr {
+	border-color: #ff3300;
+	border-width: 1px;
+	border-style: solid;
+  width: 100%;
+}
+
+.contents {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+
+}
+
+.contents .para {
+  width: 100%;
+}
+
+.contents .para p, li {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0px;
+  font-family: 'Nova Mono', monospace;
+  padding-left: 5px;
+  width: auto;
+  max-width: 600px;
+}
+
+.contents .container {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0px;
+  font-family: 'Nova Mono', monospace;
+  padding-left: 10px;
+  width: auto;
+  max-width: 600px;
+}
+
+.contents .left {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0px;
+  font-family: 'Nova Mono', monospace;
+  padding-left: 10px;
+  width: auto;
+  max-width: 600px;
+}
+
+body {
+  font-family: 'Nova Mono', monospace;
+  margin: 0 auto;
+  background-color: #ffffcc;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.contents img {
+  margin: 0 auto;
+}
+
+.contents .img-medium {
+    height: 200px;
+}
+.contents .center {
+    text-align: center;
+}
+
+.contents .text-big {
+    font-size: 300%;
+}
+
+.contents .bold {
+    font-weight: bold;
+}
+
+#header #main-nav {
+  line-height: 140%;
+  display: inline-block;
+  width: 100%;
+  background: #f70;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: -1px;
+  bottom: 0px;
+  z-index: 100;
+  /* gradient */
+  background: #000033 url(images/nav-bar-bg.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000033), to(#000099));
+  background: -moz-linear-gradient(top,  #000033,  #000099);
+  background: linear-gradient(-90deg, #000099, #000033);
+  /* rounded corner */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /* box shadow */
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+  background-image: url(images/navback.png);
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+#header #main-nav a.active {
+  line-height: 100%;
+  font-weight: bold;
+  color: #fff;
+  background-color: #066;
+  display: inline-block;
+  padding: 14px 15px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+
+#header #main-nav a.navbar {
+  line-height: 100%;
+  font-weight: bold;
+  color: #ffc;
+  background: transparent;
+  display: block;
+  padding: 14px 15px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+#header #main-nav a.navbar:hover {
+  color: #fff;
+  background: #f10;
+  /* gradient */
+  background: -webkit-gradient(linear, left top, left bottom, from(#996600), to(#ffcc00));
+  background: -moz-linear-gradient(top,  #996600,  #ffcc00);
+  background: linear-gradient(-90deg, #996600, #ffcc00);
+}
+
+nav.topbar {         /* The actual navigation bar. */
+  background-color: #ff7700;
+height: 50px;
+overflow: hidden;
+  width:100%;
+  margin-left: 0px;
+  left: -1px;
+
+}
+
+nav.topbar a.active{
+    width: auto;
+    white-space: 0px;
+    display: inline-block;
+  color: #ffffff;
+  background-color: #006666;
+  padding:6px 10px;
+  padding-left: auto;
+  padding-right: auto;
+  border: 0px;
+  margin: 0px;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 3;
+  letter-spacing: 0px;
+  text-decoration: none;
+  font-family: 'Nova Mono', monospace;
+}
+nav.topbar a.navbar{
+  width: auto;
+  margin: 0px;
+  white-space: 0px;
+  display: inline-block;
+  color: #ffffcc;
+  background-color: transparent;
+  padding:6px 10px;
+  border: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 3;
+  letter-spacing: 0px;
+  text-decoration: none;
+  font-family: 'Nova Mono', monospace;
+}
+
+nav.topbar a.navbar:hover{
+
+  color: #ffffff;
+  background-color: #f10;
+}
+
+.contents .game{
+  background-color: #ffcc66;
+  font-family: 'Nova Mono', monospace;
+  height: 400px;
+}
+.contents div.profile{
+  text-align: right;
+}
+.contents img.profile{
+  height: 120px;
+  float: right;
+  width: 120px;
+}
+
+footer {
+  bottom: 0;
+}
+

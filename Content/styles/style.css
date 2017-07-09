@@ -45,7 +45,9 @@ body {
   font-family: 'Nova Mono', monospace;
   margin: 0 auto;
   background-color: #ffffcc;
-  padding: 0 10px 20px 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 img {
@@ -66,23 +68,64 @@ img {
 .bold {
     font-weight: bold;
 }
-.links {
-	{
-    padding: 8px 16px;
-    float: left;
+nav {         /* The actual navigation bar. */
+  background-color: #555555;
+  width:100%;
+  border:0px;
+  border-radius: 8px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0px;
+}
+nav ul a{
+  padding: 0px;
+}
+nav ul a.active li{
     width: auto;
-    outline: none;
-    display: block;
-  text-shadow: 1px 1px 1px #ffff99;
-  background-color: #ffffff;
-  padding: 5px 2px 2px 5px;
+    white-space: 0px;
+    display: inline-block;
+  color: #ffffff;
+  background-color: #ff9900;
+  padding:4px 6px;
   border: 0px;
-  border-radius: 4px;
+  margin: 0px;
   font-size: 16px;
-  line-height: 4;
+  line-height: 3;
   letter-spacing: 0px;
   font-family: 'Nova Mono', monospace;
 }
+nav ul a.navbar li{
+  width: auto;
+  margin: 0px;
+  white-space: 0px;
+  display: inline-block;
+  color: #ff3300;
+  background-color: transparent;
+  padding:4px 2px;
+  border: 0px;
+  border-radius: 0px;
+  font-size: 16px;
+  line-height: 3;
+  letter-spacing: 0px;
+  font-family: 'Nova Mono', monospace;
+}
+
+nav ul a.navbar li:hover{
+
+  margin: 0px;
+  white-space: 0px;
+  display: inline-block;
+  color: blue;
+  background-color: #ff9933;
+  padding: 3px 2px;
+  border: 0px;
+  border-radius: 0px;
+  font-size: 16px;
+  line-height: 3;
+  letter-spacing: 0px;
+  font-family: 'Nova Mono', monospace;
+}
+
 .game{
   background-color: #ffcc66;
   font-family: 'Nova Mono', monospace;
@@ -96,27 +139,5 @@ img.profile{
   float: right;
   width: 120px;
 }
-a.active .links {
-	color: #ffffff;
-	background-color: #ff9900;
-	}
-a.navbar {
-    color: #ff3300;
-    background-color: transparent;
-	border: 0px;
-	border-radius: 4px;
-    text-decoration: none;
-    padding-left: 4;
-    padding-right: 3;
-}
 
-a.navbar:hover {
-    color: blue;
-    background-color: #ff9933;
-    text-decoration: underline;
-}
-a.navbar:active {
-    color: yellow;
-    background-color: #ff9900;
-    text-decoration: underline;
-}
+

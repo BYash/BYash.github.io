@@ -4,27 +4,42 @@
     <title>
     	Rock|Paper|Scissors
     </title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Patrick+Hand+SC" rel="stylesheet">
+        <link href="styles/style2.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="images/Random_R.png" rel="icon" />
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-    <div class="links">
-  	 <a class="navbar" href="http://ramdomware.me">HOME</a>
-    <a class="navbar" href="Content/profile.html">PROFILE</a>
-  	<a class="active" href="Content/rpsgame.html">R-P-S_GAME</a>
-    <a class="navbar" href="http://randomware.me/Tutorials">TUTORIALS</a>
-
+  <body>
+    <div class="namebar">
+      <h1>randomware.me</h1>
+    </div>
+    <nav class="topbar" id="top">
+    <a title="Home" class="navbar" href="http://www.randomware.me" style="width: auto; min-width: 60px;"><span><img src="images/home2edit.png"></span></a><!--
+    --><a class="navbar" href="profile.html"><b>PROFILE</b></a><!--
+    --><a class="active" href="rpsgame.html" title="Games"><b>R-P-S_GAME</b></a><!--
+    --><a class="navbar" title="Web tutorials"><b>TUTORIALS</b></a>
+    </nav>
+    <div class="contents">
+    <hr>
+    <p>
+    	In this game the computer choice is ramdomly selected.
+    	First you select your choice and then the computer selects and both the choices are compared to give the result.
+    </p>
+    <br>
+    <p id="myLog"></p>
+    <hr>
+    <p>Click this<button>button</button>to play.</p>
+    <script src="scripts/rockpapsci.js"></script>
+    </div>
+    <footer class=" w3-padding-32 w3-theme-d1 w3-center" style="padding-top: 40px">
+      <div style="position:relative;bottom:auto;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#top"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
-  <hr>
-  <p>
-  	In this game the computer choice is ramdomly selected.
-  	First you select your choice and then the computer selects and both the choices are compared to give the result.
-  </p>
-  <br>
-  <p id="myLog"></p>
-<hr>
-<p>Click this<button>button</button>to play.</p>
-   <script src="scripts/rockpapsci.js"></script>
+</footer>
   </body>
 </html>
